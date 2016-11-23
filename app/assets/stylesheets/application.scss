@@ -21,11 +21,11 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 #banner {
   position: relative;
   min-height: 40px;
-  background: #9c9;
+  background: #9d0;
   padding: 10px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
+  color: #798;
   text-align: center;
 
   img {
@@ -41,7 +41,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
   border: 2px solid red;
   padding: 1em;
   margin-bottom: 2em;
-  background-color: #f0f0f0;
+  background-color: #f0f8f6;
   font: bold smaller sans-serif;
 }
 
@@ -55,7 +55,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
   #main {
     padding: 1em;
-    background: white;
+    background: grey;
     flex: 1;
   }
 
@@ -156,3 +156,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
   }
 }
 //
+.locale {
+  float: right;
+  margin: -.25em 0.1em;
+}
